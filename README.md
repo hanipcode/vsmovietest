@@ -1,5 +1,21 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## SETUP
+
+Create a .env file from .env.example
+
+```
+cp .env.example .env
+```
+
+fill the value for .env like
+```
+NEXT_PUBLIC_ACCESS_TOKEN=YOUR TMDB ACCESS TOKEN
+NEXT_PUBLIC_API_KEY=YOUR TMDB API KEY
+NEXT_PUBLIC_BASE_PATH=https://api.themoviedb.org/3
+
+```
+
 ## Getting Started
 
 First, run the development server:
